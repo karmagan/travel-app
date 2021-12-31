@@ -1,3 +1,36 @@
-h1{
-    font-size: 4em;
+.container{
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 600px;
+    margin: auto;
+  }
+}
+.location-image {
+  width: 100%;
+}
+
+button {
+  background-color: darkcyan;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: lightcyan;
+}
+
+input {
+  font-size: 1.2em;
+}
+
+input:hover {
+  box-shadow: 0 0 2px black;
 }
