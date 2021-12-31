@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "deneme":"node __test__/deneme.js",
+    "deneme": "node __test__/deneme.js",
     "test": "jest",
     "start": "node src/server/index.js",
     "build-prod": "webpack --config webpack.prod.js",
@@ -29,6 +29,7 @@
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.7.1"
+    "webpack-dev-server": "^4.7.1",
+    "workbox-webpack-plugin": "^6.4.2"
   }
 }

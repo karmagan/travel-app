@@ -1,3 +1,5 @@
+// function to submit a post request to the server
+
 export const postData = async (url = "", data = {}) => {
   const response = await fetch(url, {
     method: "POST",

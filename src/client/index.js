@@ -6,4 +6,5 @@ import "./styles/base.scss";
 
 export { listeners, submitHandler, getWeatherInfo, postData };
 
+// Event Listeners
 listeners()

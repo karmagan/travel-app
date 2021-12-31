@@ -10,6 +10,8 @@ function updateLocationImage(data) {
 export function submitHandler(e) {
   e.preventDefault();
 
+// check is a valid date is given. Give feedback for invalid or past date
+
   const date = new Date(document.querySelector("#date").value);
   if (date == "Invalid Date") {
     document.querySelector("#weather-info").innerHTML =

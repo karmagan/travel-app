@@ -1,3 +1,5 @@
+// function to retrieve weather information from the server and convert it into usable HTML code
+
 export function getWeatherInfo(data) {
   let output = "";
   if (data.data.length > 1) {
