@@ -18,7 +18,6 @@ export function submitHandler(e) {
       "Please enter a valid date";
   } else {
     const q = document.querySelector("#q").value;
-    console.log(date);
     if (date < Date.now()) {
       document.querySelector("#weather-info").innerHTML =
         "You chose a past date. Please enter a valid date";
