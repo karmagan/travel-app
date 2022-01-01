@@ -9,9 +9,9 @@ export function getWeatherInfo(data) {
     });
   } else {
     output += `<img style='float:right' src='https://www.weatherbit.io/static/img/icons/${data.data[0].weather.icon}.png' alt=${data.data[0].weather.description} />
-      You chose a date within a week. Current weather for ${data.data[0].city_name} is as follows: <br />
-      Temperature: ${data.data[0].temp} <br />
-      Precipitation: ${data.data[0].precip}<br />`;
+    You chose a date within a week. Current weather for ${data.data[0].city_name} is as follows: <br />
+    Temperature: ${data.data[0].temp} <br />
+    Precipitation: ${data.data[0].precip}<br />`;
   }
   return output;
 }

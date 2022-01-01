@@ -1,4 +1,4 @@
-import { getWeatherInfo } from "../src/client/js/handlers";
+import { getWeatherInfo } from "../src/client/js/get-data";
 
 const data = {
   data: [
